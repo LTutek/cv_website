@@ -3,7 +3,6 @@
     border-radius: 10px;
     margin: 8%;
     display: flex;
-
 }
 
 .home-container .home-left {
@@ -20,6 +19,16 @@
     max-width: 800px;
     position: relative;
     margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imageSwitcher {
+    max-width: 100%;
+    max-height: relative;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .mySlides {
