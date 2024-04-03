@@ -1,0 +1,33 @@
+* {
+  background-color: #d1c7bd;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 2em;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+
+.social {
+  font-size: 1.5em;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.socialPhotos {
+  max-height: 40px;
+  margin: 10px;
+}
