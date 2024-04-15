@@ -4,7 +4,6 @@ body {
 
 #helloMessage {
   font-weight: bold;
-  margin: 0;
   padding: 0;
   display: flex;
   margin: 10px;
@@ -13,5 +12,11 @@ body {
 }
 
 .text {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intro-container {
   margin: 10px;
 }

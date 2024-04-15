@@ -1,0 +1,83 @@
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.projectCard {
+  width: 300px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.projectCard__image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.projectCard__content {
+  margin-top: 10px;
+}
+
+.projectCard__content h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.projectCard__content p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.projectCard__content a {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectCard {
+    width: calc(100% - 20px);
+    max-width: 300px;
+  }
+}
+#more-firstSteps,
+#more-p1,
+#more-p2,
+#more-p3 {
+  display: none;
+}
+
+#myBtn-firstSteps,
+#myBtn-p1,
+#myBtn-p2,
+#myBtn-p3 {
+  background-color: #086adb;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
