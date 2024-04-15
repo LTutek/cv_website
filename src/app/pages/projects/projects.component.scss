@@ -21,7 +21,8 @@
 
 .projectCard__image img {
   width: 100%;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
   border-radius: 5px;
 }
 
@@ -56,4 +57,27 @@
     width: calc(100% - 20px);
     max-width: 300px;
   }
+}
+#more-firstSteps,
+#more-p1,
+#more-p2,
+#more-p3 {
+  display: none;
+}
+
+#myBtn-firstSteps,
+#myBtn-p1,
+#myBtn-p2,
+#myBtn-p3 {
+  background-color: #086adb;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
 }
