@@ -1,0 +1,41 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.technologies-container {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.technologyCards {
+  width: 300px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.technologyImage img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.technologyContent h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.technologyContent p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
