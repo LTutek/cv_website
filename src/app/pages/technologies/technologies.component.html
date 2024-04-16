@@ -1,35 +1,23 @@
 <div class="title">
   <h2>Technologies & Skills</h2>
 </div>
+<div class="dropdown">
+  <select [(ngModel)]="selectedCategory" (change)="onCategoryChange()">
+    <option value="frontend">Frontend</option>
+    <option value="backend">Backend</option>
+    <option value="tools">Tools</option>
+  </select>
+</div>
 <div class="technologies-container">
-  <!-- Frontend -->
-  <div class="technologyCards">
-    <div class="technologyImage">
-      <img src="" alt="" />
+  <ng-container *ngFor="let technology of filteredTechnologies">
+    <div class="technologyCards">
+      <div class="technologyImage">
+        <img [src]="technology.logo" alt="{{ technology.name }}" />
+      </div>
+      <div class="technologyContent">
+        <h3>{{ technology.name }}</h3>
+        <p>{{ technology.description }}</p>
+      </div>
     </div>
-    <div class="technologyContent">
-      <h3>Frontend</h3>
-      <p>HTML, CSS, JavaScript, TypeScript, Angular, Vue.js</p>
-    </div>
-  </div>
-  <!-- Backend -->
-  <div class="technologyCards">
-    <div class="technologyImage">
-      <img src="" alt="" />
-    </div>
-    <div class="technologyContent">
-      <h3>Backend</h3>
-      <p>NestJS, MariaDB, MySQL, MongoDB, Python, TypeScript</p>
-    </div>
-  </div>
-  <!--Tools-->
-  <div class="technologyCards">
-    <div class="technologyImage">
-      <img src="" alt="" />
-    </div>
-    <div class="technologyContent">
-      <h3>Tools</h3>
-      <p>GitHub, GitLab, Docker, Rancher Desktop, Jira</p>
-    </div>
-  </div>
+  </ng-container>
 </div>
