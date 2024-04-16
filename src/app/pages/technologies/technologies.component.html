@@ -1,12 +1,37 @@
 <div class="title">
   <h2>Technologies & Skills</h2>
 </div>
-<div class="dropdown">
-  <select [(ngModel)]="selectedCategory" (change)="onCategoryChange()">
-    <option value="frontend">Frontend</option>
-    <option value="backend">Backend</option>
-    <option value="tools">Tools</option>
-  </select>
+<div
+  class="dropdown"
+  [(ngModel)]="selectedCategory"
+  (change)="onCategoryChange()"
+>
+  <input
+    type="radio"
+    id="frontend"
+    name="category"
+    value="frontend"
+    [(ngModel)]="selectedCategory"
+  />
+  <label for="frontend">Frontend</label>
+
+  <input
+    type="radio"
+    id="backend"
+    name="category"
+    value="backend"
+    [(ngModel)]="selectedCategory"
+  />
+  <label for="backend">Backend</label>
+
+  <input
+    type="radio"
+    id="tools"
+    name="category"
+    value="tools"
+    [(ngModel)]="selectedCategory"
+  />
+  <label for="tools">Tools</label>
 </div>
 <div class="technologies-container">
   <ng-container *ngFor="let technology of filteredTechnologies">
