@@ -23,13 +23,13 @@ export class LanguageComponent implements OnInit {
         labels: ['Deutsch', 'English', 'Croatian', 'French'],
         datasets: [
           {
-            label: 'Programming Languages',
+            label: 'Proficiency',
             data: [35, 27.5, 27.5, 5],
             backgroundColor: [
-              '#FF6384',
-              '#36A2EB',
-              '#FFCE56',
-              '#4BC0C0',
+              '#E61E64',
+              '#1781e3',
+              '#5944C6',
+              '#0EABA9',
               '#9966FF',
             ],
           },

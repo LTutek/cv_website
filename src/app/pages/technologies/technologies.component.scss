@@ -65,6 +65,7 @@ input[type="radio"] {
 input[type="radio"] + label {
   display: flex;
   margin-right: 10px;
+  align-items: center;
   cursor: pointer;
 }
 
