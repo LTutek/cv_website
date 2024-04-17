@@ -1,0 +1,16 @@
+.language-container {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .language-container {
+    width: 100%;
+  }
+}

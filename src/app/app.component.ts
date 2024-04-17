@@ -5,6 +5,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { TechnologiesComponent } from './pages/technologies/technologies.component';
+import { LanguageComponent } from './pages/language/language.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { TechnologiesComponent } from './pages/technologies/technologies.compone
     HeaderComponent,
     ProjectsComponent,
     TechnologiesComponent,
+    LanguageComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
