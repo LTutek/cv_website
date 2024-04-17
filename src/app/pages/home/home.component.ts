@@ -3,6 +3,7 @@ import { IntroductionComponent } from '../../components/introduction/introductio
 import { ProjectsComponent } from '../projects/projects.component';
 import { TechnologiesComponent } from '../technologies/technologies.component';
 import { LanguageComponent } from '../language/language.component';
+import { hobbieComponent } from '../hobbie/hobbie.component';
 
 @Component({
   selector: 'app-home',
@@ -12,6 +13,7 @@ import { LanguageComponent } from '../language/language.component';
     ProjectsComponent,
     TechnologiesComponent,
     LanguageComponent,
+    hobbieComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
