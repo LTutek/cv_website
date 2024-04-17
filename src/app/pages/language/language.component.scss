@@ -6,3 +6,9 @@
   text-align: center;
   margin: 10px;
 }
+
+@media (max-width: 768px) {
+  .language-container {
+    width: 100%;
+  }
+}
