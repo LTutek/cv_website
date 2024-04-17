@@ -33,6 +33,12 @@
   margin-bottom: 20px;
   height: 300px;
   width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.technologyCards:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
 }
 
 //Card Image

@@ -28,6 +28,10 @@
   justify-content: space-evenly;
 }
 
+.infos p {
+  margin: 0;
+}
+
 //Close Button
 .close {
   color: red;
@@ -68,16 +72,22 @@
 }
 
 .phone,
-.email {
+.email,
+.lb {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
+.lb {
+  padding: 0;
+}
+
 @media (max-width: 768px) {
   .phone,
-  .email {
+  .email,
+  .lb {
     display: flex;
     justify-content: center;
     align-items: center;
