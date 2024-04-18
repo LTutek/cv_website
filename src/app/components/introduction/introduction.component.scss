@@ -20,3 +20,11 @@ body {
 .intro-container {
   margin: 10px;
 }
+
+@media (max-width: 768px) {
+  .text {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
