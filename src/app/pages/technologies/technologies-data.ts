@@ -4,42 +4,42 @@ export const technologies = [
     name: 'Angular',
     logo: '../../../assets/technology/angular.svg',
     description:
-      'Angular is a platform and framework for building single-page client applications using HTML and TypeScript.',
+      'Angular ist eine Plattform und ein Framework zum Erstellen von einseitigen Client-Anwendungen mit HTML und TypeScript.',
     category: 'frontend',
   },
   {
     name: 'Vue',
     logo: '../../../assets/technology/vue.png',
     description:
-      'Vue.js is a progressive framework for building user interfaces.',
+      'Vue.js ist ein progressives Framework zur Erstellung von Benutzeroberflächen.',
     category: 'frontend',
   },
   {
     name: 'NestJS',
     logo: '../../../assets/technology/NestJS.svg.png',
     description:
-      'NestJS is a framework for building efficient, reliable and scalable server-side applications.',
+      'NestJS ist ein Framework für die Entwicklung effizienter, zuverlässiger und skalierbarer serverseitiger Anwendungen.',
     category: 'backend',
   },
   {
     name: 'MariaDB',
     logo: '../../../assets/technology/mariaDB.svg',
     description:
-      'MariaDB is an open-source relational database management system, backward compatible, binary drop-in replacement of MySQL.',
+      'MariaDB ist ein open-source relationales Datenbankmanagementsystem, abwärtskompatibel und ein binärer Ersatz für MySQL.',
     category: 'backend',
   },
   {
     name: 'MongoDB',
     logo: '../../../assets/technology/mongoDB.png',
     description:
-      'MongoDB is a document-oriented NoSQL database used for high volume data storage.',
+      'MongoDB ist eine dokumentenorientierte NoSQL-Datenbank, die für die Speicherung grosser Datenmengen verwendet wird.',
     category: 'backend',
   },
   {
     name: 'Python',
     logo: '../../../assets/technology/python.png',
     description:
-      'Python is an interpreted, high-level, general-purpose programming language.',
+      'Python ist eine interpretierte, objektorientierte, hoch-niveau Programmiersprache mit dynamischer Semantik.',
     category: 'backend',
   },
   {
@@ -53,63 +53,63 @@ export const technologies = [
     name: 'CSS/SCSS',
     logo: '../../../assets/technology/CSS.png',
     description:
-      'CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML.',
+      'CSS (Cascading Style Sheets) ist eine Stylesheet-Sprache, mit der die Darstellung eines in HTML geschriebenen Dokuments beschrieben werden kann.',
     category: 'frontend',
   },
   {
     name: 'JavaScript',
     logo: '../../../assets/technology/JavaScript.png',
     description:
-      'JavaScript is a programming language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.',
+      'JavaScript ist eine Programmiersprache, die es Ihnen ermöglicht, dynamisch aktualisierte Inhalte zu erstellen, Multimedia zu steuern, Bilder zu animieren und so ziemlich alles andere.',
     category: 'frontend',
   },
   {
     name: 'TypeScript',
     logo: '../../../assets/technology/Typescript_logo_2020.svg.png',
     description:
-      'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.',
+      'TypeScript ist eine typisierte Obermenge von JavaScript, die sich zu einfachem JavaScript kompilieren lässt.',
     category: 'backend',
   },
   {
     name: 'TypeScript',
     logo: '../../../assets/technology/Typescript_logo_2020.svg.png',
     description:
-      'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.',
+      'TypeScript ist eine typisierte Obermenge von JavaScript, die sich zu einfachem JavaScript kompilieren lässt.',
     category: 'frontend',
   },
   {
     name: 'GitHub',
     logo: '../../../assets/technology/github.png',
     description:
-      'GitHub is a platform for hosting and collaborating on Git repositories.',
+      'GitHub ist eine Plattform für das Hosting und die Zusammenarbeit an Git-Repositories.',
     category: 'tools',
   },
   {
     name: 'GitLab',
     logo: '../../../assets/technology/gitlab.svg',
     description:
-      'GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking, and CI/CD pipeline features, using an open-source license.',
+      'GitLab ist ein webbasiertes DevOps-Lifecycle-Tool, das einen Git-Repository-Manager mit Wiki, Issue-Tracking und CI/CD-Pipeline-Funktionen unter einer Open-Source-Lizenz bietet.',
     category: 'tools',
   },
   {
     name: 'Docker',
     logo: '../../../assets/technology/docker.svg',
     description:
-      'Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers.',
+      'Docker ist eine Reihe von Platform-as-a-Service (PaaS)-Produkten, die Virtualisierung auf Betriebssystemebene nutzen, um Software in Paketen, sogenannten Containern, bereitzustellen.',
     category: 'tools',
   },
   {
     name: 'Rancher Desktop',
     logo: '../../../assets/technology/rancherDesktop.jpeg',
     description:
-      'Rancher Desktop is an open-source tool for building, deploying, and managing containers directly on your desktop.',
+      'Rancher Desktop ist ein Open-Source-Tool zum Erstellen, Bereitstellen und Verwalten von Containern direkt auf Ihrem Desktop.',
     category: 'tools',
   },
   {
     name: 'Jira',
     logo: '../../../assets/technology/jira.svg',
     description:
-      'Jira is a proprietary issue tracking product developed by Atlassian that allows bug tracking and agile project management.',
+      'Jira ist ein von Atlassian entwickeltes, proprietäres Produkt zur Fehlerverfolgung, das Bugtracking und agiles Projektmanagement ermöglicht.',
     category: 'tools',
   },
 ];
