@@ -1,0 +1,59 @@
+.title {
+  text-align: center;
+  margin: 10px;
+}
+
+.hobbie-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hobbie-content {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 300px;
+  margin-bottom: 110px;
+}
+
+.material-icons {
+  font-size: 90px;
+  margin: 10px;
+  cursor: default;
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 370px;
+  background-color: #f5f5f5;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.material-icons:hover + .tooltip {
+  visibility: visible;
+}
+
+.fitness {
+  color: #e61e64;
+}
+
+.explore {
+  color: #1781e3;
+}
+
+.esport {
+  color: #ffce56;
+}
+
+.friends {
+  color: #0eaba9;
+}

@@ -1,0 +1,48 @@
+<div class="title">
+  <h2>Technologien</h2>
+</div>
+<div
+  class="radioButtons"
+  [(ngModel)]="selectedCategory"
+  (change)="onCategoryChange()"
+>
+  <input
+    type="radio"
+    id="frontend"
+    name="category"
+    value="frontend"
+    [(ngModel)]="selectedCategory"
+  />
+  <label for="frontend">Frontend</label>
+
+  <input
+    type="radio"
+    id="backend"
+    name="category"
+    value="backend"
+    [(ngModel)]="selectedCategory"
+  />
+  <label for="backend">Backend</label>
+
+  <input
+    type="radio"
+    id="tools"
+    name="category"
+    value="tools"
+    [(ngModel)]="selectedCategory"
+  />
+  <label for="tools">Tools</label>
+</div>
+<div class="technologies-container">
+  <ng-container *ngFor="let technology of filteredTechnologies">
+    <div class="technologyCards">
+      <div class="technologyImage">
+        <img [src]="technology.logo" alt="{{ technology.name }}" />
+      </div>
+      <div class="technologyContent">
+        <h3>{{ technology.name }}</h3>
+        <p>{{ technology.description }}</p>
+      </div>
+    </div>
+  </ng-container>
+</div>

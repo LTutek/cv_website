@@ -1,0 +1,18 @@
+.language-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-right: 3%;
+  margin-bottom: 3%;
+}
+
+.title {
+  text-align: center;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .language-container {
+    width: 100%;
+  }
+}
