@@ -1,16 +1,19 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDialog } from '@angular/material/dialog';
+import { CopyDialogComponent } from '../dialogs/copy-dialog/copy-dialog.component';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [MatIconModule],
+  imports: [MatIconModule, MatButtonModule],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss',
 })
 export class ContactComponent {
   @ViewChild('email') emailElement!: ElementRef;
-  constructor() {}
+  constructor(public dialog: MatDialog) {}
 
   ngAfterViewInit(): void {
     // Get the modal
@@ -52,7 +55,11 @@ export class ContactComponent {
     );
     const email = this.emailElement.nativeElement.textContent.trim();
     navigator.clipboard.writeText(email).then(() => {
-      alert('Email address copied to clipboard!');
+      //alert('Email address copied to clipboard!');
     });
+  }
+
+  openDialog() {
+    this.dialog.open(CopyDialogComponent);
   }
 }
