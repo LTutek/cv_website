@@ -89,3 +89,7 @@ input[type="radio"] + label:before {
 input[type="radio"]:checked + label:before {
   background-color: #086adb;
 }
+
+.mat-mdc-radio-button ~ .mat-mdc-radio-button {
+  margin-left: 16px;
+}

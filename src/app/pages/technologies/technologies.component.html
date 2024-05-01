@@ -1,37 +1,16 @@
 <div class="title">
   <h2>Technologien</h2>
 </div>
-<div
-  class="radioButtons"
-  [(ngModel)]="selectedCategory"
-  (change)="onCategoryChange()"
->
-  <input
-    type="radio"
-    id="frontend"
-    name="category"
-    value="frontend"
+<div class="radioButtons">
+  <mat-radio-group
+    aria-label="Select a category"
     [(ngModel)]="selectedCategory"
-  />
-  <label for="frontend">Frontend</label>
-
-  <input
-    type="radio"
-    id="backend"
-    name="category"
-    value="backend"
-    [(ngModel)]="selectedCategory"
-  />
-  <label for="backend">Backend</label>
-
-  <input
-    type="radio"
-    id="tools"
-    name="category"
-    value="tools"
-    [(ngModel)]="selectedCategory"
-  />
-  <label for="tools">Tools</label>
+    (change)="onCategoryChange()"
+  >
+    <mat-radio-button id="frontend" value="frontend">Frontend</mat-radio-button>
+    <mat-radio-button id="backend" value="backend">Backend</mat-radio-button>
+    <mat-radio-button id="tools" value="tools">Tools</mat-radio-button>
+  </mat-radio-group>
 </div>
 <div class="technologies-container">
   <ng-container *ngFor="let technology of filteredTechnologies">
