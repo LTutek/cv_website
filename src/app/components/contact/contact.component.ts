@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-contact',
@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './contact.component.scss',
 })
 export class ContactComponent {
+  @ViewChild('email') emailElement!: ElementRef;
   constructor() {}
 
   ngAfterViewInit(): void {
@@ -42,5 +43,15 @@ export class ContactComponent {
         modal.style.display = 'none';
       }
     };
+  }
+  public copyEmail(): void {
+    console.log(
+      'Attempting to copy:',
+      this.emailElement.nativeElement.textContent
+    );
+    const email = this.emailElement.nativeElement.textContent.trim();
+    navigator.clipboard.writeText(email).then(() => {
+      alert('Email address copied to clipboard!');
+    });
   }
 }
