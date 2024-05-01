@@ -64,14 +64,6 @@
   text-decoration: underline;
 }
 
-/* Icon */
-.material-symbols-outlined {
-  font-size: 1.5em;
-  margin-right: 10px;
-  margin-left: 5px;
-  cursor: pointer;
-}
-
 .inside_modal {
   font-size: 90px;
 }
@@ -81,6 +73,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+#myBtn {
+  font-size: 1.5em;
+  text-align: center;
+  margin-right: -25px;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {

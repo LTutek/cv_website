@@ -8,7 +8,18 @@
     <h2>Kontaktinformationen</h2>
     <div class="infos">
       <div class="email">
-        <span class="material-symbols-outlined inside_modal"> mail </span>
+        <mat-icon
+          aria-hidden="false"
+          aria-label="mail-contact"
+          fontIcon="mail_outlined"
+          style="
+            font-size: 70px;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            margin-right: -25%;
+          "
+        ></mat-icon>
         <p><strong>Mail</strong></p>
         <p id="email" #email (click)="copyEmail()">
           luka.tutek&#64;swisscom.com
@@ -17,4 +28,10 @@
     </div>
   </div>
 </div>
-<span class="material-symbols-outlined" id="myBtn"> info </span>
+<mat-icon
+  id="myBtn"
+  aria-hidden="false"
+  aria-label="info button"
+  fontIcon="info_outlined"
+  style="height: 100%; width: 100%"
+></mat-icon>
