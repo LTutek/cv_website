@@ -71,7 +71,13 @@
   display: none;
 }
 
-#myBtn-firstSteps,
+#myBtn-firstSteps {
+  display: table-cell;
+  max-width: 600px;
+  margin: 8px 8px 8px 0;
+  border-radius: inherit;
+}
+
 #myBtn-p1,
 #myBtn-p2,
 #myBtn-p3 {
